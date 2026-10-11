@@ -50,12 +50,38 @@ Python (pandas, SQLAlchemy, PyMySQL, python-dotenv, matplotlib, seaborn) · MySQ
 - **Some branches fell sharply from 2022 to 2023.** The five biggest drops were WALM045 (−62.6%), WALM047 (−58.6%), WALM098 (−57.9%), WALM033 (−55.7%) and WALM081 (−50.7%). These are good candidates for a closer look.
 
 ## Visualisations
-| | |
-|---|---|
-| ![Monthly trend](images/1_monthly_trend.png) | ![Profit by category](images/2_profit_by_category.png) |
-| ![Top branches](images/3_top_branches.png) | ![Payment methods](images/4_payment_methods.png) |
-| ![Peak time heatmap](images/5_peak_time_heatmap.png) | ![Weekday vs weekend](images/6_weekday_vs_weekend.png) |
-| ![YoY growth](images/7_yoy_growth_by_category.png) | ![Ratings](images/8_ratings.png) |
+
+**1. Monthly revenue and profit (2020–2023):** revenue and profit move together month to month, and yearly revenue stays steady at about $217K–$233K.
+
+![Monthly revenue and profit](images/1_monthly_trend.png)
+
+**2. Total profit by category:** Fashion accessories and Home and lifestyle each earn about $192K, far ahead of the other four categories.
+
+![Profit by category](images/2_profit_by_category.png)
+
+**3. Top 10 branches by revenue:** a ranking of the highest-earning branches.
+
+![Top branches](images/3_top_branches.png)
+
+**4. Transactions by payment method:** credit card is the most used (42.7%), followed by e-wallet (38.9%) and cash (18.4%).
+
+![Payment methods](images/4_payment_methods.png)
+
+**5. When customers shop (day × hour):** the busiest slot is Tuesday at 3 PM, and afternoons are busiest overall.
+
+![Peak time heatmap](images/5_peak_time_heatmap.png)
+
+**6. Average daily revenue, weekday vs weekend:** compares each category's daily sales on weekdays with weekends.
+
+![Weekday vs weekend](images/6_weekday_vs_weekend.png)
+
+**7. Year-over-year revenue growth by category:** shown only for the three categories with data in 2020–2023.
+
+![YoY growth](images/7_yoy_growth_by_category.png)
+
+**8. Ratings:** the average rating is 5.83, with Home and lifestyle the lowest (5.74) and Food and beverages the highest (7.11).
+
+![Ratings](images/8_ratings.png)
 
 ## Limitations
 - Only **Electronic accessories, Fashion accessories and Home and lifestyle** have data for all five years. *Food and beverages, Health and beauty* and *Sports and travel* appear only in 2019, so year-over-year growth could be charted for just three categories.
